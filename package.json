@@ -1,0 +1,30 @@
+{
+  "name": "@jinhui/jhttpclient",
+  "version": "1.0.0",
+  "description": "A HTTP client that fit my taste (builder)",
+  "main": "./dist/http.js",
+  "module": "./dist/http.mjs",
+  "types": "./dist/http.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjhken/jhttp-client.git"
+  },
+  "author": "Jinhui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjhken/jhttp-client/issues"
+  },
+  "homepage": "https://github.com/zjhken/jhttp-client#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  }
+}
