@@ -6,7 +6,7 @@ export class JHttpClient {
 	private abortController: AbortController | undefined = undefined
 	private timeoutMilli = 0
 
-	static create(url: string) {
+	static createRequest(url: string) {
 		let http = new JHttpClient()
 		http.url = url
 		return http

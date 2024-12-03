@@ -29,7 +29,7 @@ var _JHttpClient = class _JHttpClient {
     this.abortController = void 0;
     this.timeoutMilli = 0;
   }
-  static create(url) {
+  static createRequest(url) {
     let http = new _JHttpClient();
     http.url = url;
     return http;

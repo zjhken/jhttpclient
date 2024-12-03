@@ -5,7 +5,7 @@ declare class JHttpClient {
     private queries;
     private abortController;
     private timeoutMilli;
-    static create(url: string): JHttpClient;
+    static createRequest(url: string): JHttpClient;
     static beforeSendFn: (() => Promise<void>) | null;
     method(method: string): JHttpClient;
     addHeader(key: string, value: string): JHttpClient;
